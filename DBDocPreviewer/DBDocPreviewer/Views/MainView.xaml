@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DBDocPreviewer.Views.MainView"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="FillAndExpand" Padding="0">
+            <Label Text="XF Document Viewer!" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Padding="20"
+                   FontSize="18" TextColor="DodgerBlue"/>
+            <ImageButton Source="view_file.png" HorizontalOptions="Center" VerticalOptions="Center"
+                         BackgroundColor="Transparent" HeightRequest="100" WidthRequest="100"
+                         Clicked="ImageButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
