@@ -7,7 +7,7 @@
 - https://docs.github.com/en/github/writing-on-github/autolinked-references-and-urls
 --->
 
-# DBFileOperations
+# DBFileOperations (Document Previewer)
 - Download document 
 - Save it to Device's special folder 
 - Preview any type of document (i.e. Image, PDF, Excel, Word) without 3rd party library like **Syncfusion's PdfViewerControl**
